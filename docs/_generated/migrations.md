@@ -1,1 +1,2 @@
-# migrations.md
+# Migraciones
+_(Salida ordenada de `database/migrations`)_

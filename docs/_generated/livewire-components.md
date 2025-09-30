@@ -1,1 +1,2 @@
-# livewire-components.md
+# Livewire
+_(Lista de componentes en `app/Livewire`)_
