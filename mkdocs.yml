@@ -1,0 +1,32 @@
+site_name: SNEL11 Docs
+nav:
+  - Inicio: docs/README.md
+  - Arquitectura:
+    - Visión general: docs/architecture/overview.md
+    - Módulos: docs/architecture/modules.md
+    - Plantillas de módulos: docs/architecture/modules-templates.md
+    - Permisos (SubmoduleAccess): docs/architecture/permissions.md
+    - Actions (patrón): docs/architecture/actions.md
+    - ERD + Secuencias Inventarios: docs/architecture/inventories-erd-sequences.md
+  - Módulos:
+    - Inventarios / Categorías (Importación): docs/modules/inventories/categories-import.md
+  - Compras:
+    - Estados de OC: docs/purchases/oc-states.md
+    - Clases y permisos: docs/purchases/classes-permissions.md
+  - Operaciones:
+    - Entorno local: docs/operations/local-setup.md
+    - Despliegue: docs/operations/deploy.md
+    - Troubleshooting: docs/operations/troubleshooting.md
+  - Generados:
+    - Rutas: docs/_generated/routes.md
+    - Modelos: docs/_generated/models.md
+    - Livewire: docs/_generated/livewire-components.md
+    - Migraciones: docs/_generated/migrations.md
+theme:
+  name: material
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
