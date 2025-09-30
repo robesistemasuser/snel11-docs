@@ -1,4 +1,6 @@
 ﻿site_name: SNEL11 Docs
+repo_url: https://github.com/robesistemasuser/snel11-docs
+edit_uri: edit/main/docs/
 nav:
   - Inicio: index.md
   - Arquitectura:
