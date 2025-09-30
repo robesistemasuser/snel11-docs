@@ -1,27 +1,6 @@
 ﻿site_name: SNEL11 Docs
 nav:
-  - Inicio: README.md
-  - Arquitectura:
-    - Visión general: architecture/overview.md
-    - Módulos: architecture/modules.md
-    - Plantillas de módulos: architecture/modules-templates.md
-    - Permisos (SubmoduleAccess): architecture/permissions.md
-    - Actions (patrón): architecture/actions.md
-    - ERD + Secuencias Inventarios: architecture/inventories-erd-sequences.md
-  - Módulos:
-    - Inventarios / Categorías (Importación): modules/inventories/categories-import.md
-  - Compras:
-    - Estados de OC: purchases/oc-states.md
-    - Clases y permisos: purchases/classes-permissions.md
-  - Operaciones:
-    - Entorno local: operations/local-setup.md
-    - Despliegue: operations/deploy.md
-    - Troubleshooting: operations/troubleshooting.md
-  - Generados:
-    - Rutas: _generated/routes.md
-    - Modelos: _generated/models.md
-    - Livewire: _generated/livewire-components.md
-    - Migraciones: _generated/migrations.md
+  - Inicio: index.md
 theme:
   name: material
 markdown_extensions:
