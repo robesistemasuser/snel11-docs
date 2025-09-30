@@ -1,0 +1,8 @@
+# Node / PHP / builds
+node_modules/
+vendor/
+public/build/
+.DS_Store
+
+# MkDocs build
+site/
