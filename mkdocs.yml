@@ -1,6 +1,6 @@
 ﻿site_name: SNEL11 Docs
 nav:
-  - Inicio: README.md
+  - Inicio: index.md
   - Arquitectura:
     - Visión general: architecture/overview.md
     - Módulos: architecture/modules.md
